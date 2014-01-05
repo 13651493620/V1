@@ -1,0 +1,84 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE  
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE  
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE  
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
+
+//jdhuang 20120818
+1001	BITMAP			"res\\1001.bmp"
+//1002	BITMAP			"res\\1002.bmp"
+1002	RCDATA			"res\\1002.png"
+1003	RCDATA			"res\\1003.png"
+1004	RCDATA			"res\\1004.png"
+1010	RCDATA			"res\\1010.png"
+1011	RCDATA			"res\\1011.png"
+1012	RCDATA			"res\\1012.png"
+1013	RCDATA			"res\\1013.png"
+1014	RCDATA			"res\\1014.png"
+1015	RCDATA			"res\\1015.png"
+1016	RCDATA			"res\\1016.png"
+1017	RCDATA			"res\\1017.png"
+1030	RCDATA			"res\\1030.png"
+1031	RCDATA			"res\\1031.png"
+1032	RCDATA			"res\\1032.png"
+1033	RCDATA			"res\\1033.png"
+1034	RCDATA			"res\\1034.png"
+1035	RCDATA			"res\\1035.png"
+1036	RCDATA			"res\\1036.png"
+1037	RCDATA			"res\\1037.png"

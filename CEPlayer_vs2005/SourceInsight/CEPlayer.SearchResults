@@ -1,0 +1,24 @@
+---- GetWindowContext Æ¥Åä (5 in 2 ÎÄ¼þ) ----
+mpcontainer.cpp (F:\luyg\...\CEPlayer):671
+// Name: CMPContainer::GetWindowContext()
+// Desc: This function allows the control to position the parent window where
+//       the in-place activation window should be placed.
+mpcontainer.cpp (F:\luyg\...\CEPlayer):675
+HRESULT CMPContainer::GetWindowContext(IOleInPlaceFrame **ppFrame, IOleInPlaceUIWindow **ppDoc, LPRECT lprcPosRect, LPRECT lprcClipRect, LPOLEINPLACEFRAMEINFO lpFrameInfo)
+{
+	return	S_OK;
+mpcontainer.cpp (F:\luyg\...\CEPlayer):680
+    	DebugString("[GetWindowContext] E_INVALIDARG");
+        return E_INVALIDARG;
+    }
+mpcontainer.cpp (F:\luyg\...\CEPlayer):688
+	DebugString("[GetWindowContext] m_rcPos.left = %d", m_rcPos.left);
+	DebugString("[GetWindowContext] m_rcPos.right = %d", m_rcPos.right);
+	DebugString("[GetWindowContext] m_rcPos.top = %d", m_rcPos.top);
+	DebugString("[GetWindowContext] m_rcPos.bottom = %d", m_rcPos.bottom);
+    CopyRect(lprcPosRect, &m_rcPos);
+    CopyRect(lprcClipRect, &m_rcPos);
+mpcontainer.h (F:\luyg\...\CEPlayer):110
+   STDMETHOD (GetWindowContext)(IOleInPlaceFrame **ppFrame, IOleInPlaceUIWindow **ppDoc, LPRECT lprcPosRect, LPRECT lprcClipRect, LPOLEINPLACEFRAMEINFO lpFrameInfo);
+   STDMETHOD (Scroll)(SIZE scrollExtent);
+   STDMETHOD (OnUIDeactivate)(BOOL fUndoable);

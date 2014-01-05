@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CEPlayer", "CEPlayer\CEPlayer.vcproj", "{D9E4C194-7CE6-4386-89FD-78593C46C708}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|YULONG_CP9030 (ARMV4I) = Debug|YULONG_CP9030 (ARMV4I)
+		Release|YULONG_CP9030 (ARMV4I) = Release|YULONG_CP9030 (ARMV4I)
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D9E4C194-7CE6-4386-89FD-78593C46C708}.Debug|YULONG_CP9030 (ARMV4I).ActiveCfg = Debug|YULONG_CP9030 (ARMV4I)
+		{D9E4C194-7CE6-4386-89FD-78593C46C708}.Debug|YULONG_CP9030 (ARMV4I).Build.0 = Debug|YULONG_CP9030 (ARMV4I)
+		{D9E4C194-7CE6-4386-89FD-78593C46C708}.Debug|YULONG_CP9030 (ARMV4I).Deploy.0 = Debug|YULONG_CP9030 (ARMV4I)
+		{D9E4C194-7CE6-4386-89FD-78593C46C708}.Release|YULONG_CP9030 (ARMV4I).ActiveCfg = Release|YULONG_CP9030 (ARMV4I)
+		{D9E4C194-7CE6-4386-89FD-78593C46C708}.Release|YULONG_CP9030 (ARMV4I).Build.0 = Release|YULONG_CP9030 (ARMV4I)
+		{D9E4C194-7CE6-4386-89FD-78593C46C708}.Release|YULONG_CP9030 (ARMV4I).Deploy.0 = Release|YULONG_CP9030 (ARMV4I)
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
