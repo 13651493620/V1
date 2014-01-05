@@ -1,0 +1,29 @@
+//======================================================================
+// Resource file
+//
+// Written for the book Programming Windows CE
+// Copyright (C) 1998 Douglas Boling
+//======================================================================
+#include "windows.h"
+#include "xtalk.h"                        // Program-specific stuff
+
+//----------------------------------------------------------------------
+// Icons and bitmaps
+//
+ID_ICON ICON   "xtalk.ico"                // Program icon
+
+//----------------------------------------------------------------------
+xtalk DIALOG discardable 10, 10, 120, 75
+STYLE  WS_OVERLAPPED | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | 
+       DS_CENTER | DS_MODALFRAME 
+CAPTION "XTalk"
+CLASS "xtalk"
+BEGIN
+    LTEXT "&Text"                     -1,   2,  10,  20,  12
+    EDITTEXT                 IDD_OUTTEXT,  25,  10,  58,  12, 
+                                             WS_TABSTOP | ES_AUTOHSCROLL
+    PUSHBUTTON "&Send[0]",     IDD_SENDTEXT,  88,  10,  30,  12, WS_TABSTOP
+	PUSHBUTTON "&Send[1]",     IDD_SENDRADIO,  88,  25,  30,  12, WS_TABSTOP
+    LISTBOX                   IDD_INTEXT,   2,  40, 116,  40, 
+                                             WS_TABSTOP | WS_VSCROLL
+END

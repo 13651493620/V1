@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TstSHImage", "TstSHImage.vcproj", "{4D776222-D3E2-4F1F-AFCD-3CFB7CFD3824}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|CE600 (ARMV4I) = Debug|CE600 (ARMV4I)
+		Debug|I8MID (ARMV4I) = Debug|I8MID (ARMV4I)
+		Release|CE600 (ARMV4I) = Release|CE600 (ARMV4I)
+		Release|I8MID (ARMV4I) = Release|I8MID (ARMV4I)
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D776222-D3E2-4F1F-AFCD-3CFB7CFD3824}.Debug|CE600 (ARMV4I).ActiveCfg = Debug|CE600 (ARMV4I)
+		{4D776222-D3E2-4F1F-AFCD-3CFB7CFD3824}.Debug|CE600 (ARMV4I).Build.0 = Debug|CE600 (ARMV4I)
+		{4D776222-D3E2-4F1F-AFCD-3CFB7CFD3824}.Debug|CE600 (ARMV4I).Deploy.0 = Debug|CE600 (ARMV4I)
+		{4D776222-D3E2-4F1F-AFCD-3CFB7CFD3824}.Debug|I8MID (ARMV4I).ActiveCfg = Debug|I8MID (ARMV4I)
+		{4D776222-D3E2-4F1F-AFCD-3CFB7CFD3824}.Debug|I8MID (ARMV4I).Build.0 = Debug|I8MID (ARMV4I)
+		{4D776222-D3E2-4F1F-AFCD-3CFB7CFD3824}.Debug|I8MID (ARMV4I).Deploy.0 = Debug|I8MID (ARMV4I)
+		{4D776222-D3E2-4F1F-AFCD-3CFB7CFD3824}.Release|CE600 (ARMV4I).ActiveCfg = Release|CE600 (ARMV4I)
+		{4D776222-D3E2-4F1F-AFCD-3CFB7CFD3824}.Release|CE600 (ARMV4I).Build.0 = Release|CE600 (ARMV4I)
+		{4D776222-D3E2-4F1F-AFCD-3CFB7CFD3824}.Release|CE600 (ARMV4I).Deploy.0 = Release|CE600 (ARMV4I)
+		{4D776222-D3E2-4F1F-AFCD-3CFB7CFD3824}.Release|I8MID (ARMV4I).ActiveCfg = Release|I8MID (ARMV4I)
+		{4D776222-D3E2-4F1F-AFCD-3CFB7CFD3824}.Release|I8MID (ARMV4I).Build.0 = Release|I8MID (ARMV4I)
+		{4D776222-D3E2-4F1F-AFCD-3CFB7CFD3824}.Release|I8MID (ARMV4I).Deploy.0 = Release|I8MID (ARMV4I)
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
