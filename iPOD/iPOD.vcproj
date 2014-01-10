@@ -462,6 +462,7 @@
 				Name="VCCLCompilerTool"
 				ExecutionBucket="7"
 				Optimization="2"
+				AdditionalIncludeDirectories="..\common\include\mzfc;..\common\private;..\common\include;..\include"
 				PreprocessorDefinitions="NDEBUG;_WIN32_WCE=$(CEVER);UNDER_CE;WINCE;_WINDOWS;$(ARCHFAM);$(_ARCHFAM_);_UNICODE;UNICODE"
 				RuntimeLibrary="0"
 				UsePrecompiledHeader="0"
@@ -483,8 +484,10 @@
 			<Tool
 				Name="VCLinkerTool"
 				AdditionalOptions=" /subsystem:windowsce,6.00"
+				AdditionalDependencies="MzFC.lib"
 				OutputFile="$(OutDir)/iPOD.exe"
 				LinkIncremental="1"
+				AdditionalLibraryDirectories="..\common\Lib"
 				DelayLoadDLLs="$(NOINHERIT)"
 				GenerateDebugInformation="true"
 				ProgramDatabaseFile="$(OutDir)/iPOD.pdb"
@@ -511,7 +514,7 @@
 			/>
 			<DeploymentTool
 				ForceDirty="-1"
-				RemoteDirectory=""
+				RemoteDirectory="NFlash\Normal"
 				RegisterOutput="0"
 				AdditionalFiles=""
 			/>
@@ -759,10 +762,6 @@
 					>
 				</File>
 				<File
-					RelativePath=".\MusicListUiWin.h"
-					>
-				</File>
-				<File
 					RelativePath=".\MusicPlaybackUiWin.h"
 					>
 				</File>
@@ -807,11 +806,7 @@
 					>
 				</File>
 				<File
-					RelativePath=".\MusicListsWin.cpp"
-					>
-				</File>
-				<File
-					RelativePath=".\MusicListUiWin.cpp"
+					RelativePath=".\MusicListsUiWin.cpp"
 					>
 				</File>
 				<File
